@@ -103,6 +103,7 @@ int32_t main()
     //tc
     {
         solve();        
+        cout<<lcm(2,3)<<"\n";
     }
     return 0;
 }

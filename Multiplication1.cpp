@@ -54,8 +54,8 @@ bool isPrime(ll n)
 bool isPal(string str){
      string s=str;
      reverse(str.begin(),str.end());
-     if(s==str)return true;
-     return false;	
+     return s==str;
+
 }
 
 void printDivisors(ll n) 
